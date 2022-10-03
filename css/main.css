@@ -19,11 +19,11 @@
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-    .card {
+    .features .card {
         width: calc(100% / 3 - 2.5rem);
         padding-right: 1.5625rem;
     }
-    .card:first-child {
+    .features .card:first-child {
         width: calc((100% / 3) * 2);
     }
 }
@@ -41,7 +41,21 @@
     background-color: white;
     height: 300px;
 }
+/* TABLET */
+@media screen and (min-width: 768px) {
+
+}
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .strategic .card {
+        width: calc(50% -2.5rem);
+        margin-right: 20px;
+    }
+    .strategic:last-child {
+        align-self: flex-end;
+    }
+}
 
 /*********************
-        MAIN
+    TESTIMONIAL
 *********************/
