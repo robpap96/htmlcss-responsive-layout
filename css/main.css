@@ -59,3 +59,28 @@
 /*********************
     TESTIMONIAL
 *********************/
+.testimonial {
+    background-color: white;
+    color: white;
+}
+.testimonial .debug-card{
+    background-color: #9792e4;
+    height: 300px;
+}
+.testimonial .debug-title {
+    width: 100%;
+    background-color: red;
+    padding: 1.25rem;
+    text-align: center;
+}
+.testimonial .card {
+    width: 100%;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+}
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    
+}
