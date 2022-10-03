@@ -2,7 +2,8 @@
         VAR
 *********************/
 :root {
-    --primary-color: ;
-    --secondary-color: ;
-    --tertiary-color: ;
+    --primary-color: #0084fd ;
+    --primary-color-light: #b5ddff ;
+    --secondary-color: #9792e4;
+    --main-text-color: #6e869b;
 }

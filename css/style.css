@@ -1,8 +1,9 @@
-@import "reset";
-@import "common";
-@import "variables";
-@import "flex";
-@import "button";
-@import "header";
-@import "main";
-@import "footer";
+@import url("reset.css");
+@import url("common.css");
+@import url("google-font.css");
+@import url("variables.css");
+@import url("button.css");
+@import url("flex.css");
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");

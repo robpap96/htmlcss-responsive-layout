@@ -1,3 +1,31 @@
 /*********************
         HEADER
 *********************/
+header {
+    background-color: var(--primary-color);
+    color: white;
+}
+.hamburger {
+    display: block;
+}
+.nav-bar {
+    display: none;
+}
+.logo {
+
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .hamburger {
+        display: none;
+    }
+    .nav-bar {
+        display: block;
+    }
+}
