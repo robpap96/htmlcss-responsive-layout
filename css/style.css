@@ -7,3 +7,10 @@
 @import url("header.css");
 @import url("main.css");
 @import url("footer.css");
+
+@media screen and (max-width: 53.75rem){
+    .container {
+        margin-left: -0.0625rem;
+        margin-right: -0.0625rem;
+    }
+}

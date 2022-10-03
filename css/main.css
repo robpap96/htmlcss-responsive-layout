@@ -160,3 +160,16 @@
         width: calc(25% - 2.5rem);
     }
 }
+/*********************
+    GET STARTED
+*********************/
+.get-started {
+    background-color: #9792e4;
+    text-align: center;
+}
+.get-started h5 {
+    color: white;
+}
+.get-started h2 {
+    color: #fdc15f;
+}
