@@ -84,3 +84,37 @@
 @media screen and (min-width: 992px) {
     
 }
+/*********************
+    BENEFITS
+*********************/
+.benefits {
+    background-color: #9792e4;
+}
+.benefits h2 {
+    color: white;
+}
+.benefits .debug-card{
+    background-color: white;
+    height: 300px;
+}
+.card {
+    width: 100%;
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+    border-radius: 1.25rem;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .benefits .card {
+        width: calc(100% / 2 - 2.5rem);
+        padding-right: 1.5625rem;
+    }
+}
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .benefits .card {
+        width: calc(100% / 3 - 2.5rem);
+        padding-right: 1.5625rem;
+    }
+}
