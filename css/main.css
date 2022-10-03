@@ -118,3 +118,45 @@
         padding-right: 1.5625rem;
     }
 }
+/*********************
+    ABOUT-US
+*********************/
+.about-us h3 {
+    color: #9792e4;
+}
+.about-us h4 {
+    color: #9792e4;
+}
+.text {
+    width: 100%;
+}
+.debug-comment {
+    background-color: #9792e4;
+    width: 100%;
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+    border-radius: 1.25rem;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .text {
+        padding-right: 1.5625rem;
+        width: calc(30% - 2.5rem);
+    }
+    .debug-comment {
+        padding-right: 1.5625rem;
+        width: calc(40% - 2.5rem);
+    }
+}
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .text {
+        padding-right: 1.5625rem;
+        width: calc(75% - 2.5rem);
+    }
+    .debug-comment {
+        padding-right: 1.5625rem;
+        width: calc(25% - 2.5rem);
+    }
+}
