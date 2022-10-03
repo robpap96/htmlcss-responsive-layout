@@ -1,3 +1,40 @@
 /*********************
         MAIN
 *********************/
+
+/*********************
+        FEATURES
+*********************/
+.debug-card {
+    background-color: #b5ddff;
+    height: 300px;
+}
+.card {
+    width: 100%;
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+    border-radius: 1.25rem;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .card {
+        width: calc(100% / 3 - 2.5rem);
+        padding-right: 1.5625rem;
+
+    }
+    .card:first-child {
+        width: calc((100% / 3) * 2);
+    }
+}
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    
+}
+/*********************
+        MAIN
+*********************/
+
+/*********************
+        MAIN
+*********************/
