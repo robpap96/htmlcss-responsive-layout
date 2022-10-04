@@ -7,21 +7,18 @@
 *********************/
 
 .features .debug-card{
-    background-color: #b5ddff;
+    background-color: var(--primary-color-light);
     height: 300px;
 }
-.card {
-    width: 100%;
-    padding: 1.25rem;
-    margin: 1.25rem 0;
-    border-radius: 1.25rem;
-}
+
 
 /* TABLET */
 @media screen and (min-width: 768px) {
     .features .card {
         width: calc(100% / 3 - 2.5rem);
-        padding-right: 1.5625rem;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+
     }
     .features .card:first-child {
         width: calc((100% / 3) * 2);
@@ -35,7 +32,7 @@
       STRATEGIC
 *********************/
 .strategic {
-    background-color: #9792e4;
+    background-color: var(--secondary-color);
 }
  .debug-card {
     background-color: white;
@@ -64,7 +61,7 @@
     color: white;
 }
 .testimonial .debug-card{
-    background-color: #9792e4;
+    background-color: var(--secondary-color);
     height: 300px;
 }
 .testimonial .debug-title {
@@ -88,7 +85,7 @@
     BENEFITS
 *********************/
 .benefits {
-    background-color: #9792e4;
+    background-color: var(--secondary-color);
 }
 .benefits h2 {
     color: white;
@@ -131,7 +128,7 @@
     width: 100%;
 }
 .debug-comment {
-    background-color: #9792e4;
+    background-color: var(--secondary-color);
     width: 100%;
     padding: 1.25rem;
     margin: 1.25rem 0;
@@ -164,7 +161,10 @@
     GET STARTED
 *********************/
 .get-started {
-    background-color: #9792e4;
+    margin-bottom: 0;
+}
+.get-started {
+    background-color: var(--secondary-color);
     text-align: center;
 }
 .get-started h5 {
