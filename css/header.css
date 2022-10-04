@@ -8,6 +8,7 @@ header {
 }
 .hamburger {
     display: block;
+    width: 1.875rem;
 }
 .nav-bar {
     display: none;
