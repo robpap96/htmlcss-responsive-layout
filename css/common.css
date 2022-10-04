@@ -17,9 +17,10 @@ section {
 }
 .card {
     width: 100%;
-    padding: 1.25rem;
+    padding: 1.5625rem;
     margin: 1.25rem 0;
     border-radius: 1.25rem;
+
 }
 .list-style-none {
     list-style: none;
@@ -28,4 +29,8 @@ small {
     font-size: 1.25rem;
     font-weight: 100;
     color: #cfcef2;
+}
+h3 {
+    color: var(--primary-color);
+    padding: 2.5rem 0;
 }

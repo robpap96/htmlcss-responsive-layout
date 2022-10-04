@@ -6,28 +6,71 @@
         FEATURES
 *********************/
 
-.features .debug-card{
+.features .card{
     background-color: var(--primary-color-light);
-    height: 300px;
 }
-
+.features p {
+    color: var(--main-text-color);
+    padding-bottom: 2.5rem;
+    font-size: .75rem;
+}
+.features img {
+    height: 14.5625rem;
+    width: 11.875rem;
+    max-width: 100%;
+}
+.features-card-image {
+    margin: auto;
+    margin-bottom: -1.5625rem;
+}
+.features h2 {
+    font-size: 3.125rem;
+    color: var(--primary-color);
+}
+.features .flex:not(:first-child){
+    text-align: center;
+}
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+    /* COMMON */
     .features .card {
-        width: calc(100% / 3 - 2.5rem);
+        width: calc(100% / 3 - .625rem);
         padding-left: 0.625rem;
         padding-right: 0.625rem;
-
     }
     .features .card:first-child {
         width: calc((100% / 3) * 2);
     }
+    /* /COMMON */
+    .features .card {
+        flex-direction: column;
+    }
+    .features-card-image {
+        margin-left: 0;
+    }
+
 }
+
+
+/**************** DA RIVEDEREEEEEEEE ************/
 /* DESKTOP */
 @media screen and (min-width: 992px) {
-    
+    .features .card .description {
+        margin-top: -25px;
+    }
+    .features .card {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .features .description {
+        width: 50%;
+        margin-right: 5.625rem;
+    }
 }
+/**************** DA RIVEDEREEEEEEE ************/
+
+
 /*********************
       STRATEGIC
 *********************/

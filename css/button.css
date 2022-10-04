@@ -2,7 +2,15 @@
         BUTTON
 *********************/
 button {
-    
+    border: none;
+    border-radius: 1.25rem;
+    padding: .625rem 1.25rem;
+}
+header .get-started button {
+    color: black;
+    background-color: white;
+    font-size: 1rem;
+    padding: .3125rem 10px;
 }
 header button{
     font-size: 1.5625rem;
@@ -12,4 +20,12 @@ header button{
 	padding: 0;
 	cursor: pointer;
 	outline: inherit;
+}
+.features button {
+    color:white;
+    background-color: var(--primary-color);
+
+}
+.features-btn {
+    margin-bottom: 2.5rem;
 }

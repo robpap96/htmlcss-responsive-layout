@@ -5,6 +5,8 @@ header {
     background-color: var(--primary-color);
     color: white;
     padding: 1.25rem 0;
+    position: sticky;
+    top: 0;
 }
 .hamburger {
     display: block;
@@ -29,5 +31,8 @@ header {
     }
     .nav-bar {
         display: block;
+    }
+    header ul li {
+        margin-right: 1.25rem;
     }
 }
