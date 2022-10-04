@@ -69,25 +69,46 @@
 }
 
 /*********************
-      STRATEGIC
+      STRATEGIC MA CHE CAZZO STO COMBINANDO AIUT
 *********************/
 .strategic {
     background-color: var(--secondary-color);
 }
- .debug-card {
+.strategic .flex:last-child {
     background-color: white;
-    height: 300px;
 }
+.strategic .col {
+    width: 100%;
+    margin: 0;
+}
+.strategic-card-image {
+    background-color: var(--secondary-color);
+}
+.strategic img {
+    display: block;
+    max-width: 101%;
+    min-width: 18.75rem;
+    margin: 0px;
+}
+.strategic-text-container {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) {
-
+    .strategic .col {
+        width: calc(50%);
+    }
+    .strategic .card {
+        width: calc(50%);
+    }
 }
 /* DESKTOP */
 @media screen and (min-width: 992px) {
-    .strategic .card {
-        width: calc(50% -2.5rem);
-        margin-right: 20px;
-    }
+
     .strategic:last-child {
         align-self: flex-end;
     }
@@ -100,15 +121,36 @@
     background-color: white;
     color: white;
 }
-.testimonial .debug-card{
+.testimonial .card{
     background-color: var(--secondary-color);
-    height: 300px;
 }
-.testimonial .debug-title {
+.testimonial .title {
     width: 100%;
-    background-color: red;
     padding: 1.25rem;
     text-align: center;
+}
+.testimonial h2 {
+    padding: 2rem 0;
+    color: var(--secondary-color);
+}
+.testimonial p {
+    color: black;
+    padding: 2.5rem 0;
+}
+.testimonial img {
+    max-width: 100%;
+    min-width: 12.5rem;
+    min-height: 12.5rem;
+    object-fit: cover;
+    padding: 0px 3.75rem;
+    border-radius: 50%;
+}
+.testimonial .citazione {
+    text-align: center;
+    line-height: 1.875rem;
+}
+.testimonial .citazione p{
+    color: white;
 }
 .testimonial .card {
     width: 100%;
@@ -116,9 +158,21 @@
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+    .testimonial .card {
+        flex-wrap: nowrap;
+    }
+    .testimonial img {
+        padding: 0;
+    }
+    .testimonial .citazione {
+        padding: 0 1.25rem;
+    }
 }
 /* DESKTOP */
 @media screen and (min-width: 992px) {
+    .testimonial img {
+        padding: 0 10%;
+    }
     
 }
 /*********************
