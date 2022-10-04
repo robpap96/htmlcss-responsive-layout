@@ -2,6 +2,8 @@
         MAIN
 *********************/
 
+
+
 /*********************
         FEATURES
 *********************/
@@ -51,9 +53,6 @@
     }
 
 }
-
-
-/**************** DA RIVEDEREEEEEEEE ************/
 /* DESKTOP */
 @media screen and (min-width: 992px) {
     .features .card .description {
@@ -68,8 +67,6 @@
         margin-right: 5.625rem;
     }
 }
-/**************** DA RIVEDEREEEEEEE ************/
-
 
 /*********************
       STRATEGIC
