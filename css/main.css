@@ -74,21 +74,24 @@
 .strategic {
     background-color: var(--secondary-color);
 }
-.strategic .flex:last-child {
-    background-color: white;
+.strategic .container {
+    padding: 50px 25px;
 }
 .strategic .col {
     width: 100%;
-    margin: 0;
+    margin-bottom: 30px;
+    
 }
-.strategic-card-image {
+.strategic-card-image1 {
     background-color: var(--secondary-color);
 }
 .strategic img {
+    position: relative;
+    left: -15px;
     display: block;
-    max-width: 101%;
-    min-width: 18.75rem;
-    margin: 0px;
+    width: 340px;
+    height: 320px;
+    margin: auto;
 }
 .strategic-text-container {
     background-color: var(--secondary-color);
@@ -96,21 +99,67 @@
     text-align: center;
     margin: auto;
 }
+.strategic .card {
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+}
+.strategic .card .text-container {
+    text-align: center;
+}
+.strategic .col .text-container h3 {
+    color: white;
+    font-size: 40px;
+}
+.strategic .col .text-container p {
+    color: white;
+}
+.strategic .card .text-container p {
+    padding-bottom: 100px;
+}
+.strategic .card .text-container h3,p {
+    color: black;
+}
+.freccetta {
+    margin: auto;
+    position: absolute;
+    bottom: 50px;
+    left: 45%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    vertical-align: middle;
+    line-height: 50px;
+}
+.freccetta i{
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 50px;
+    position: relative;
+    left: 17px;
 
+}
 /* TABLET */
 @media screen and (min-width: 768px) {
-    .strategic .col {
-        width: calc(50%);
-    }
-    .strategic .card {
-        width: calc(50%);
-    }
+
+
 }
 /* DESKTOP */
 @media screen and (min-width: 992px) {
-
-    .strategic:last-child {
-        align-self: flex-end;
+    .strategic .col {
+        width: 50%;
+        padding: 20px;
+        margin-right: 50px;
+    }
+    .strategic .card {
+        width: 50%;
+        padding: 20px;
+        margin-left: 50px;
+    }
+    .strategic .flex {
+        flex-wrap: nowrap;
+        padding: 0 150px;
     }
 }
 
@@ -142,7 +191,7 @@
     min-width: 12.5rem;
     min-height: 12.5rem;
     object-fit: cover;
-    padding: 0px 2.75rem;
+    aspect-ratio: 1;
     border-radius: 50%;
 }
 .testimonial .citazione {
@@ -171,7 +220,6 @@
 /* DESKTOP */
 @media screen and (min-width: 992px) {
     .testimonial img {
-        padding: 0 10%;
     }
     
 }
@@ -180,6 +228,9 @@
 *********************/
 .benefits {
     background-color: var(--secondary-color);
+}
+.benefits .container {
+    padding-bottom: 3.75rem;
 }
 
 .benefits .title {
@@ -304,20 +355,29 @@
     .about-us .container {
         padding: 0 3.125rem;
     }
+    
 }
 /*********************
     GET STARTED
 *********************/
-.get-started {
-    margin-bottom: 0;
+.get-started .container-small{
+    padding: 60px 0;
 }
 .get-started {
     background-color: var(--secondary-color);
     text-align: center;
+    margin-bottom: 0;
 }
 .get-started h5 {
     color: white;
+    padding: 20px 0;
+    font-size: 20px;
 }
 .get-started h2 {
     color: #fdc15f;
+    font-size: 50px;
+}
+.get-started small {
+    padding: 20px 0;
+    font-size: 20px;
 }

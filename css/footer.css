@@ -4,4 +4,8 @@
 footer {
     text-align: center;
     background-color: #333333;
+    padding: 60px 0;
+}
+footer small {
+    padding: 20px;
 }
